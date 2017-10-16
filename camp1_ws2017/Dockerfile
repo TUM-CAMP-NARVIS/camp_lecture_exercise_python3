@@ -13,4 +13,4 @@ RUN /opt/conda/bin/pip install dicom --quiet
 VOLUME /opt/notebooks
 EXPOSE 8888
 
-CMD /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser
+CMD /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root
